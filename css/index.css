@@ -29,7 +29,7 @@ body {
     margin: 0.25em 0;
 }
   h1 {
-    font-size: 1.25em;
+    font-size: 2em;
 }
 
 
@@ -94,6 +94,7 @@ body {
     padding: 0 1em;
     margin-top: 2.1875em;
 }
+
 .message .p1{
     border-radius: 0px 20px 20px 20px;
     background-color: rgb(24, 160, 24);
@@ -129,6 +130,9 @@ aside .panel .usercard+.usercard{margin-top: 15px;}
 aside .panel .usercard .usersum{width: 50px; height: 50px; float: left; border-radius: 50%; background-color: aqua;}
 aside .panel .usercard h4{padding-left: 60px;}
 aside .panel .usercard p{padding-left: 80px;}
+
+main footer{position: absolute; width: 45%;}
+main footer input[type="text"]{width: 90%; height: 150px;}
      
 /* medium screen */
 @media screen and (min-width: 40em) {
@@ -172,6 +176,8 @@ aside .panel .usercard p{padding-left: 80px;}
         transform: translateX(-30em);
     }
     .others.open ~ .conversation {
-        margin-left: 30em;
+        margin-left: 45%;
+        width: 45%;
+        margin-top: 80px;
     }
 }
