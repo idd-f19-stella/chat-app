@@ -96,6 +96,7 @@ body {
 }
 
 .conversation section{margin-bottom: 50px;}
+.message {height: 500px;}
 
 .message .p1{
     border-radius: 0px 20px 20px 20px;
@@ -107,6 +108,7 @@ body {
     margin-left: 1.5em;
 }
 .message .p2{
+    float: right;
     border-radius: 20px 0px 20px 20px;
     background-color: rgb(24, 160, 24);
     box-shadow: rgba(24, 160, 24, 0.466);
@@ -119,9 +121,7 @@ body {
     border-radius: 50%;
     width:7%;
 }
-.message ul li {
-    display: inline;
-}
+
 .from-me ul{
     text-align: right;
 }
